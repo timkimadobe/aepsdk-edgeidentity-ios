@@ -11,7 +11,7 @@ categories:
   - title: 'Bug Fixes'
     labels:
       - 'Type: bug'
-      - 'Type: bugfix'
+      - 'Type: fix'
   - title: 'Deprecations'
     labels:
       - 'Type: deprecated'
