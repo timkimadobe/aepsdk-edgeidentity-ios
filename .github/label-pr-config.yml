@@ -2,6 +2,7 @@ autolabeler:
   - label: 'Type: documentation'
     files:
       - '*.md'
+    # Checks there is no word character (alphanumeric & underscore) before target words, or after to avoid accidental matches
     title:
       - '/(?<![\w])((doc)|(docs)|(documentation))(?![\w])/i'
   - label: 'Type: fix'
