@@ -4,7 +4,7 @@ autolabeler:
       - '*.md'
     # Checks there is no word character (alphanumeric & underscore) before target words, or after to avoid accidental matches
     title:
-      - '/(?<![\w])((doc)|(docs)|(documentation))(?![\w])/i'
+      - '/(?<![\w])(doc()|(s)|(umentation))(?![\w])/i'
   - label: 'Type: fix'
     branch:
       - '/fix\/.+/'
