@@ -9,7 +9,9 @@ jobs:
     - uses: actions/checkout@v3
     - uses: release-drafter/release-drafter@v5
       with:
+        name: v${{ github.event.inputs.tag }}
         tag: pr-label-release-to-delete
+        version: ${{ github.event.inputs.tag }}
         publish: false
         config-name: label-pr-config.yml
         
