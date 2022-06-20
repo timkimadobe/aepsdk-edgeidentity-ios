@@ -17,4 +17,6 @@ jobs:
         
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - uses: gh release delete pr-label-release-to-delete -y
+    - run: gh release delete pr-label-release-to-delete -y
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
