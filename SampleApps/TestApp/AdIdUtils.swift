@@ -15,7 +15,7 @@ import AppTrackingTransparency
 import Foundation
 
 class AdIdUtils {
-
+//testcommentchnage
     /// Provides the `advertisingIdentifier` for the given environment, assuming tracking authorization is provided.
     /// Use ``requestTrackingAuthorization(callbackHandler:)`` to request authorization.
     ///
